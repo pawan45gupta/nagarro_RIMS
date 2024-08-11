@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
-import ProductShowcase from '../components/ProductShowcase';
+import ProductShowcase from '../components/ProductShowCase';
 
 const ProductPage = () => {
   const router = useRouter();
